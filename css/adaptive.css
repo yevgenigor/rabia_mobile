@@ -1,0 +1,33 @@
+@media all and (min-width: 740px) {
+
+    .right-bloc{
+        margin-top: 50px;
+    }
+    .right-footer{
+        display: none;
+    }
+    .nav-item {
+        display: block;
+    }
+    .main-header{
+        width: 20%;
+    }
+}
+
+@media all and (min-width: 980px) {
+    .main-header{
+        position: fixed;
+    }
+    .nav-list{
+        display: block;
+    }
+    .left-bloc{
+        display: block;
+    }
+    .right-bloc{
+        width: 40%;
+    }
+    .right-footer{
+        display: block;
+    }
+}
